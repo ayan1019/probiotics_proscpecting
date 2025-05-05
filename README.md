@@ -5,15 +5,17 @@
 
 ## Project Structure
 
-probiotics_prospecting/
-├── main.py               # Main execution script
-├── scraper.py            # Website scraping functionality
-├── analyzer.py           # Text analysis engine
-├── categorizer.py        # Business categorization logic
-├── output.py             # Excel report generation
-├── project_constants.py  # Configuration and keywords
-├── requirements.txt      # Dependencies
-└── README.md             # This file
+| File/Folder            | Purpose |
+|------------------------|---------|
+| `main.py`              | Main execution script |
+| `scraper.py`           | Website scraping functionality |
+| `analyzer.py`          | Processes scraped text and identifies keywords |
+| `categorizer.py`       | Implements business logic for company classification |
+| `output.py`            | Generates formatted Excel reports |
+| `project_constants.py` | Contains all configurable parameters and keywords |
+
+
+
 
 A data-driven solution to identify potential customers for probiotic products by analyzing company websites and categorizing them based on relevant business segments.
 
